@@ -1,0 +1,23 @@
+
+@import './variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--ios-background);
+  font-family: var(--ios-font-family);
+  color: var(--ios-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}

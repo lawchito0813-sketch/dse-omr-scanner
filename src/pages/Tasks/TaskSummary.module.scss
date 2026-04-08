@@ -1,0 +1,165 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.taskName {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.taskMeta {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.overall {
+  text-align: right;
+}
+
+.overallValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--ios-primary);
+}
+
+.overallLabel {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.overallMeta {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.sectionSubtitle {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.tableRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 14px;
+  padding: 10px 12px;
+  gap: 12px;
+}
+
+.studentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.studentDetail {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.detailLabel {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+  margin-bottom: 6px;
+}
+
+.detailValue {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ios-text-primary);
+  line-height: 1.5;
+}
+
+.tableLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tableRight {
+  text-align: right;
+}
+
+.tableTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tableSubtitle {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.tableAccuracy {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ios-primary);
+}
+
+.tableMeta {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.distribution {
+  display: flex;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 8px;
+  background: rgba(60, 60, 67, 0.12);
+}
+
+.segmentA {
+  background: rgba(0, 122, 255, 0.7);
+}
+
+.segmentB {
+  background: rgba(52, 199, 89, 0.7);
+}
+
+.segmentC {
+  background: rgba(255, 149, 0, 0.7);
+}
+
+.segmentD {
+  background: rgba(175, 82, 222, 0.7);
+}
+
+.segmentBlank {
+  background: rgba(142, 142, 147, 0.6);
+}
+
+.segmentMulti {
+  background: rgba(255, 59, 48, 0.6);
+}

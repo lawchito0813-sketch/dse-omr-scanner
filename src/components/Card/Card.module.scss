@@ -1,0 +1,15 @@
+.card {
+  background-color: var(--ios-surface);
+  backdrop-filter: var(--ios-blur);
+  -webkit-backdrop-filter: var(--ios-blur);
+  border-radius: var(--ios-border-radius);
+  border: 0.5px solid rgba(0, 0, 0, 0.05);
+  box-shadow: var(--ios-shadow);
+  padding: 24px;
+  color: var(--ios-text-primary);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &.interactive:active {
+    transform: scale(0.98);
+  }
+}

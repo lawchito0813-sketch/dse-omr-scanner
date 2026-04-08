@@ -1,0 +1,22 @@
+:root {
+  /* Colors - iOS 18 System Colors */
+  --ios-background: #F2F2F7;
+  --ios-surface: rgba(255, 255, 255, 0.75);
+  --ios-surface-dark: rgba(28, 28, 30, 0.75);
+  --ios-primary: #007AFF;
+  --ios-primary-active: #0062CC;
+  --ios-text-primary: #1C1C1E;
+  --ios-text-secondary: #8E8E93;
+  --ios-divider: rgba(60, 60, 67, 0.36);
+  --ios-destructive: #FF3B30;
+  --ios-success: #34C759;
+  
+  /* Blurs & Shadows */
+  --ios-blur: blur(25px) saturate(180%);
+  --ios-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+  --ios-border-radius: 20px;
+  --ios-button-radius: 999px;
+  
+  /* Fonts */
+  --ios-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

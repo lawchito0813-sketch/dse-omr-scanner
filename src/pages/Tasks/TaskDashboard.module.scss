@@ -1,0 +1,46 @@
+.taskHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.taskName {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.taskMeta {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.progressRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.progressLabel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.progressHint {
+  font-size: 12px;
+  color: var(--ios-text-secondary);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
